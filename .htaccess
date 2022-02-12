@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteBase /ci4
+RewriteRule (.*) public/$1 [L]
