@@ -32,10 +32,10 @@ class Database extends Config
      */
     public $default = [
         'DSN'      => '',
-        'hostname' => 'localhost',
+        'hostname' => 'adrianvcp.trial.rocks',
         'username' => 'adrianvc_rjap1',
-        'password' => 'S.Q7DDafQTPzYHNPSM365',
-        'database' => 'adrianvc_rjap1',
+        'password' => 'W08F2wE4AnIB',
+        'database' => 'adrianvc_restful_db',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
         'pConnect' => false,
