@@ -12,4 +12,8 @@ class Home extends BaseController
     public function hw(){
         echo "Hello World";
      }
+
+     public function hwjson(){
+        echo json_decode("Hello World");
+     }
 }

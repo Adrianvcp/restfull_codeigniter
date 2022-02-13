@@ -1,15 +1,16 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Test extends CI_Controller {
+namespace App\Controllers;
 
-    public function __construct()
-    {
-    parent::__construct();
-    }
+class Test extends Controller {
 
     public function index(){
        echo json_decode("asdasd");
     }
+
+    public function helloword(){
+        echo "hello word";
+    }
+     
  
 }
