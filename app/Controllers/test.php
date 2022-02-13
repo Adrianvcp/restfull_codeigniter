@@ -9,7 +9,7 @@ class test extends CI_Controller {
     }
 
     public function index(){
-        $this->load->view('hello_world');
+        echo 'Hello World';
     }
 
 }
