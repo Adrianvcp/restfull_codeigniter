@@ -1,6 +1,6 @@
 <?php
 
-class testClass extends CI_Controller 
+class test extends CI_Controller 
 {
     function index(){
         echo 'Hello World!';
